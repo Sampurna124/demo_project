@@ -3,4 +3,4 @@ from rest_framework.response import Response
 
 class FirstApi(APIView):
     def get(self,request):
-        return Response(data={'detail':'Get method '})
+        return Response(data={'detail':'This is Get method of api'})
